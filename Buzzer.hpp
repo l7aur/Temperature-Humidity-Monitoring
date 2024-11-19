@@ -15,7 +15,7 @@ public:
     void buzzerLoop();
 private:
     const int dataPin{3}; // PWM PIN
-    float pauseStretch{1.3f};
+    const float pauseStretch{1.3f};
 };
 
 #endif

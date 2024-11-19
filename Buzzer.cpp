@@ -16,7 +16,7 @@ void Buzzer::turnOn(int noteFrequency, Notes duration)
 
 void Buzzer::turnOff()
 {
-    analogWrite(dataPin, 255);
+    analogWrite(dataPin, 0);
 }
 
 void Buzzer::buzzerLoop()
