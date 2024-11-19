@@ -4,6 +4,8 @@
 LED myLed(RED);
 DHT22Sensor myDHT22Sensor;
 
+
+//test
 void setup() {
   Serial.begin(9600);
   myLed.setupLed();
