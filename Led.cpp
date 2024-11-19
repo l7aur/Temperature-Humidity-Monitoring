@@ -1,6 +1,6 @@
 #include "Led.hpp"
 
-void LED::setupLed() {
+void LED::setupLed() const {
     pinMode(getRedPin(), OUTPUT);
     pinMode(getGreenPin(), OUTPUT);
     pinMode(getBluePin(), OUTPUT);
