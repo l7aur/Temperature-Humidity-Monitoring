@@ -1,10 +1,12 @@
 #include "Led.hpp"
 #include "DHT22Sensor.hpp"
 #include "LedModule.hpp"
+#include "LCD.hpp"
 
 LED myLed(RED);
 DHT22Sensor myDHT22Sensor;
 LedModule ledModule;
+LCD display;
 
 void setup()
 {
@@ -13,6 +15,7 @@ void setup()
   myLed.displayColor();
   // myDHT22Sensor.setupSensor();
   ledModule.setupLedModule();
+  display.getInstance().setupLCD();
 }
 
 int index = 6;
