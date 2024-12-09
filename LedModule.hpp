@@ -9,11 +9,12 @@ public:
     LedModule() {};
     void setupLedModule() const;
     int getLedPin(int index) const;
+    int getNumberOfLeds() const { return numberOfLeds; };
     void turnOnLed(int index) const;
     void turnOffLed(int index) const;
 private:
-    const int leds[8]{1, 2, 3, 4, 5, 6, 7, 8};
-    const int numberOfLeds{8};
+    const int leds[7]{13, 2, 3, 4, 6, 7, 8};
+    const int numberOfLeds{7};
 };
 
 #endif

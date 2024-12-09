@@ -8,6 +8,7 @@ class LCD
 public:
     static LCD& getInstance();
     void setupLCD();
+    void displayMessage(char * msg);
 private:
     LCD();
     LCD(const LCD&) = delete;

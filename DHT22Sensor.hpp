@@ -9,12 +9,12 @@
 class DHT22Sensor {
 public:
     DHT22Sensor() : dht(12, DHT22) {};
-    void setupSensor();
-    void sensorLoop();
+    void setupSensor() { dht.begin(); };
+    float readTempearture();
+    float readHumidity();
 private:
     const int dataPin = 12;
     DHT_Unified dht;
-    uint32_t delayMS;
 };
 
 #endif

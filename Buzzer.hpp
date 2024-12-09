@@ -2,7 +2,6 @@
 #define BUZZER_HPP
 
 #include "Arduino.h"
-#include "Pitches.hpp"
 #include "Types.hpp"
 
 class Buzzer

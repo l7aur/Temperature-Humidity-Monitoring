@@ -13,4 +13,11 @@ void LCD::setupLCD()
 {
     lcdInstance.init();
     lcdInstance.backlight();
+    lcdInstance.print("Initializing...");
+}
+
+void LCD::displayMessage(char * msg)
+{
+    lcdInstance.clear();
+    lcdInstance.print(msg);
 }
