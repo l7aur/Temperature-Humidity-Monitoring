@@ -2,6 +2,10 @@
 
 *Arduino project for the Design with Microprocessors course at Technical University of Cluj-Napoca*
 
+![diag_full2](https://github.com/user-attachments/assets/5c1507f6-167d-4f87-8bf6-00f907148260)
+![diag_full3](https://github.com/user-attachments/assets/5a319f66-66e2-4769-9e09-82b37018609a)
+![diag_full3](https://github.com/user-attachments/assets/094e57f5-1e3a-452d-8ac7-4580de8dbd31)
+
 I chose this project because I was familiar with temperature measuring from another assignment. This topic seems interesting to me because there is a wide variety of sensors on the market with different specifications that can provide input data for a computation pipeline. I have used such kind of input to create a temperature histogram before (a great visual tool to detect average temperatures over a period of time and other statistics-related values), and now I want to implement a "feedback" circuit that has three main parts:
 
 - **INPUT** some temperature sensor that acts as input source.
